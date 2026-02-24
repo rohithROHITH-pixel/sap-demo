@@ -13,10 +13,10 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8 md:px-6">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <Link href="/">
-                <Logo className='[&>span]:text-primary-foreground [&>svg]:text-primary-foreground' />
+                <Logo className='[&_span]:text-primary-foreground [&_svg]:text-primary-foreground' showTagline />
             </Link>
           <p className="text-sm text-primary-foreground/80">
-            &copy; {new Date().getFullYear()} SAP Institute Pro. All rights reserved.
+            &copy; {new Date().getFullYear()} Nexus SAP. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {socialLinks.map((link) => (

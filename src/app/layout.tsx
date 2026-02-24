@@ -6,10 +6,10 @@ import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
   title: {
-    default: "SAP Institute Pro",
-    template: "%s | SAP Institute Pro",
+    default: "Nexus SAP",
+    template: "%s | Nexus SAP",
   },
-  description: 'Empowerment Through SAP Education',
+  description: 'Connecting You to SAP Excellence',
 };
 
 export default function RootLayout({

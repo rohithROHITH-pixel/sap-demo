@@ -66,10 +66,10 @@ export default function Home() {
         <div className="relative z-10 container mx-auto px-4 md:px-6">
           <div className="flex flex-col items-center space-y-6">
             <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-              Empowerment Through SAP Education
+              Connecting You to SAP Excellence
             </h1>
             <p className="max-w-3xl text-lg text-white/90 md:text-xl">
-              Master the world&apos;s leading enterprise software. Our expert-led courses pave your way to a successful career in the SAP ecosystem.
+              Master the world&apos;s leading enterprise software with Nexus SAP. Our expert-led courses pave your way to a successful career in the SAP ecosystem.
             </p>
             <div className="flex flex-col gap-4 min-[400px]:flex-row">
               <Button asChild size="lg">

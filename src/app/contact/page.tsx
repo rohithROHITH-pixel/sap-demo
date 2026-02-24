@@ -1,7 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
-import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,7 +7,6 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-  const mapImage = PlaceHolderImages.find((img) => img.id === "map");
   return (
     <>
         <section className="w-full py-16 md:py-24 lg:py-32 bg-secondary">
@@ -55,15 +52,14 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="relative rounded-xl overflow-hidden h-[400px] md:h-full shadow-xl">
-                 {mapImage && (
-                    <Image
-                      src={mapImage.imageUrl}
-                      alt={mapImage.description}
-                      fill
-                      className="object-cover"
-                      data-ai-hint={mapImage.imageHint}
-                    />
-                  )}
+                 <iframe
+                    title="Google Map of SAP Institute Pro"
+                    src="https://maps.google.com/maps?q=890%20Broadway,%20New%20York,%20NY%2010003&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    className="absolute inset-0 w-full h-full border-0"
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>

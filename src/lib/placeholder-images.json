@@ -1,3 +1,16 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Professionals working on SAP dashboards in a modern office.",
+      "imageUrl": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3Jwb3JhdGUlMjBtZWV0aW5nfGVufDB8fHx8MTc3MTkzODcyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate meeting"
+    },
+    {
+      "id": "methodology",
+      "description": "A trainer pointing at a screen showing data analytics visuals.",
+      "imageUrl": "https://images.unsplash.com/photo-1762158007836-25d13ab34c1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0cmFpbmluZyUyMHByZXNlbnRhdGlvbnxlbnwwfHx8fDE3NzE5Mzg3Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "training presentation"
+    }
+  ]
 }

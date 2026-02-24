@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "description": "A developer's hands on a laptop keyboard with code on the screen.",
-      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14694dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsYXB0b3AlMjBjb2RlfGVufDB8fHx8MTcyMTE0NjY5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "laptop code"
+      "description": "A person's hand interacting with a futuristic digital interface displaying data and charts.",
+      "imageUrl": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXNpbmVzcyUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzIxOTMxOTcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business technology"
     },
     {
       "id": "about",

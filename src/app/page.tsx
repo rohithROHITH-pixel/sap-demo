@@ -49,37 +49,32 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full bg-secondary py-20 md:py-32 lg:py-40">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid gap-8 md:grid-cols-2 md:gap-16">
-            <div className="flex flex-col justify-center space-y-6">
-              <h1 className="font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl">
-                Empowerment Through SAP Education
-              </h1>
-              <p className="max-w-xl text-lg text-muted-foreground md:text-xl">
-                Join SAP Institute Pro to gain the practical skills and expert knowledge needed to excel in the fast-evolving world of SAP technology.
-              </p>
-              <div className="flex flex-col gap-4 min-[400px]:flex-row">
-                <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-                  <Link href="/contact">Get In Touch</Link>
-                </Button>
-                 <Button asChild size="lg" variant="outline">
-                  <Link href="/methodology">Our Methodology</Link>
-                </Button>
-              </div>
-            </div>
-            <div className="relative">
-              {heroImage && (
-                <Image
-                  src={heroImage.imageUrl}
-                  alt={heroImage.description}
-                  width={1200}
-                  height={800}
-                  className="mx-auto aspect-video overflow-hidden rounded-xl object-cover shadow-xl"
-                  data-ai-hint={heroImage.imageHint}
-                  priority
-                />
-              )}
+      <section className="relative w-full h-[85vh] flex items-center justify-center text-center text-white overflow-hidden">
+        <div className="absolute inset-0">
+          {heroImage && (
+            <Image
+              src={heroImage.imageUrl}
+              alt={heroImage.description}
+              fill
+              className="object-cover animate-bg-zoom"
+              data-ai-hint={heroImage.imageHint}
+              priority
+            />
+          )}
+          <div className="absolute inset-0 bg-black/60" />
+        </div>
+        <div className="relative z-10 container mx-auto px-4 md:px-6">
+          <div className="flex flex-col items-center space-y-6">
+            <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+              Empowerment Through SAP Education
+            </h1>
+            <p className="max-w-3xl text-lg text-white/90 md:text-xl">
+              Master the world&apos;s leading enterprise software. Our expert-led courses pave your way to a successful career in the SAP ecosystem.
+            </p>
+            <div className="flex flex-col gap-4 min-[400px]:flex-row">
+              <Button asChild size="lg">
+                <Link href="/about">Discover Our Mission</Link>
+              </Button>
             </div>
           </div>
         </div>

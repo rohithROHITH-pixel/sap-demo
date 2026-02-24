@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "description": "A diverse group of students collaborating in a modern classroom environment.",
-      "imageUrl": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHVkZW50cyUyMGxlYXJuaW5nfGVufDB8fHx8MTc3MTkzMDI4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "students learning"
+      "description": "A developer's hands on a laptop keyboard with code on the screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14694dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsYXB0b3AlMjBjb2RlfGVufDB8fHx8MTcyMTE0NjY5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop code"
     },
     {
       "id": "about",

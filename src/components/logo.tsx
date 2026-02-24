@@ -22,7 +22,7 @@ export function Logo({ className }: LogoProps) {
         <path d="M2 12l10 5 10-5" />
       </svg>
       <span className="text-xl font-bold font-headline text-primary">
-        SAP Pathfinders
+        SAP Institute Pro
       </span>
     </div>
   );

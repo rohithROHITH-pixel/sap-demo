@@ -10,11 +10,10 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about", label: "About" },
-  { href: "#methodology", label: "Methodology" },
-  { href: "#reviews", label: "Reviews" },
-  { href: "#contact", label: "Contact" },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About Us" },
+  { href: "/methodology", label: "Methodology" },
+  { href: "/contact", label: "Contact" },
 ];
 
 const NavLink = ({
@@ -46,7 +45,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-        <Link href="#home">
+        <Link href="/">
           <Logo />
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
@@ -64,7 +63,7 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent side="right">
               <div className="flex flex-col gap-6 p-6">
-                <Link href="#home" onClick={() => setMobileMenuOpen(false)}>
+                <Link href="/" onClick={() => setMobileMenuOpen(false)}>
                   <Logo />
                 </Link>
                 <nav className="flex flex-col gap-4">

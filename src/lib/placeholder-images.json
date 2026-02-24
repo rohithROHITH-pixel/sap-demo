@@ -2,15 +2,21 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "description": "Professionals working on SAP dashboards in a modern office.",
-      "imageUrl": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3Jwb3JhdGUlMjBtZWV0aW5nfGVufDB8fHx8MTc3MTkzODcyNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "corporate meeting"
+      "description": "A diverse group of students collaborating in a modern classroom environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHVkZW50cyUyMGxlYXJuaW5nfGVufDB8fHx8MTc3MTkzMDI4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students learning"
+    },
+    {
+      "id": "about",
+      "description": "A professional mentor guiding a student on a computer with SAP software.",
+      "imageUrl": "https://images.unsplash.com/photo-1758524944402-1903b38f848f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWVudG9yJTIwdGVhY2hpbmd8ZW58MHx8fHwxNzcxOTM5NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mentor teaching"
     },
     {
       "id": "methodology",
-      "description": "A trainer pointing at a screen showing data analytics visuals.",
-      "imageUrl": "https://images.unsplash.com/photo-1762158007836-25d13ab34c1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0cmFpbmluZyUyMHByZXNlbnRhdGlvbnxlbnwwfHx8fDE3NzE5Mzg3Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "training presentation"
+      "description": "A close-up of a student's hands typing on a laptop with code on the screen, during a hands-on lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1591024622168-fa91b5df0c86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2RpbmclMjBoYW5kc3xlbnwwfHx8fDE3NzE5Mzk0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coding hands"
     }
   ]
 }

@@ -30,7 +30,7 @@ export default function ContactPage() {
                       <MapPin className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold text-lg">Address</h4>
-                        <p className="text-muted-foreground">123 Tech Park, Innovation Drive, Silicon Valley, CA 94043</p>
+                        <p className="text-muted-foreground">890 Broadway, New York, NY 10003, USA</p>
                       </div>
                     </div>
                      <Separator />

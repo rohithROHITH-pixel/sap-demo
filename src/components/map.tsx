@@ -8,20 +8,9 @@ import { APIProvider, Map as GoogleMap, Marker } from "@vis.gl/react-google-maps
 const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "";
 const MAP_ID = "SAP_PATHFINDERS_MAP";
 
-const position = { lat: 34.052235, lng: -118.243683 }; // Default to Los Angeles
+const position = { lat: 40.738, lng: -73.990 }; // 890 Broadway, New York, NY
 
 export default function Map() {
-  if (!API_KEY) {
-    return (
-      <div className="flex h-full w-full items-center justify-center bg-muted">
-        <div className="text-center text-muted-foreground">
-          <p className="font-semibold">Map Under Development</p>
-          <p className="text-sm">Google Maps API Key is not configured.</p>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <APIProvider apiKey={API_KEY}>
       <GoogleMap

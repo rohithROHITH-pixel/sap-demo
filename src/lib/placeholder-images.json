@@ -17,6 +17,12 @@
       "description": "A close-up of a student's hands typing on a laptop with code on the screen, during a hands-on lab.",
       "imageUrl": "https://images.unsplash.com/photo-1591024622168-fa91b5df0c86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2RpbmclMjBoYW5kc3xlbnwwfHx8fDE3NzE5Mzk0MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "coding hands"
+    },
+    {
+      "id": "map",
+      "description": "A stylized map of a city with a pin indicating a location.",
+      "imageUrl": "https://images.unsplash.com/photo-1579222851185-5e51a7599a53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYXAlMjBjYWxpZm9ybmlhfGVufDB8fHx8MTcyMjAwMzA1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
     }
   ]
 }

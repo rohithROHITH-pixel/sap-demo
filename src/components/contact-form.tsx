@@ -3,7 +3,8 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState, useEffect } from "react";
+import { useFormStatus } from "react-dom";
 
 import { submitContactForm } from "@/app/actions";
 import { Button } from "@/components/ui/button";
@@ -18,7 +19,6 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { useEffect } from "react";
 import { Loader2 } from "lucide-react";
 
 const contactSchema = z.object({
@@ -48,7 +48,7 @@ function SubmitButton() {
 
 
 export default function ContactForm() {
-  const [state, formAction] = useFormState(submitContactForm, initialState);
+  const [state, formAction] = useActionState(submitContactForm, initialState);
   const { toast } = useToast();
 
   const form = useForm<ContactFormValues>({
@@ -58,7 +58,7 @@ export default function ContactForm() {
       email: "",
       message: "",
     },
-    // The useFormState hook provides errors, so we pass them here
+    // The useActionState hook provides errors, so we pass them here
     errors: state.errors,
   });
 

@@ -1,6 +1,7 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
-import Map from "@/components/map";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,6 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
+  const mapImage = PlaceHolderImages.find((img) => img.id === "map");
   return (
     <>
         <section className="w-full py-16 md:py-24 lg:py-32 bg-secondary">
@@ -53,7 +55,15 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="relative rounded-xl overflow-hidden h-[400px] md:h-full shadow-xl">
-                <Map />
+                 {mapImage && (
+                    <Image
+                      src={mapImage.imageUrl}
+                      alt={mapImage.description}
+                      fill
+                      className="object-cover"
+                      data-ai-hint={mapImage.imageHint}
+                    />
+                  )}
               </div>
             </div>
           </div>

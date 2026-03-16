@@ -32,14 +32,14 @@ export function Logo({ className }: LogoProps) {
         <span className="text-3xl font-bold font-headline text-primary leading-none">
             SAP
         </span>
-        <svg height="4" width="48px" className="my-0.5 text-primary" aria-hidden="true">
+        <svg height="4" width="24px" className="my-0.5 text-primary" aria-hidden="true">
             <line x1="0" y1="1" x2="100%" y2="1" stroke="currentColor" strokeWidth="2" />
         </svg>
         <div className="flex items-baseline gap-x-2">
             <span className="text-sm font-bold font-headline text-foreground/90 leading-none tracking-wider">
                 TECH HUB
             </span>
-            <span className="text-xs text-muted-foreground tracking-wider font-medium whitespace-nowrap">
+            <span className="text-xs text-foreground/70 font-headline font-medium tracking-wide whitespace-nowrap">
                 SAP Software Training Institute
             </span>
         </div>

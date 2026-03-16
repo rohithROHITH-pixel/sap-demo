@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: "SAP Tech Hub",
     template: "%s | SAP Tech Hub",
   },
-  description: 'Excellence in Learning',
+  description: 'SAP Tech Hub - Training Institute',
 };
 
 export default function RootLayout({

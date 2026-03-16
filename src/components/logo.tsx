@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-import { GitFork } from "lucide-react";
 
 type LogoProps = {
   className?: string;
@@ -8,16 +7,42 @@ type LogoProps = {
 
 export function Logo({ className, showTagline = false }: LogoProps) {
   return (
-    <div className={cn("flex items-center gap-3", className)}>
-      <GitFork className="h-8 w-8 text-primary" />
-      <div className="flex flex-col">
-        <span className="text-2xl font-bold font-headline text-primary leading-none">
-          SAP Tech Hub
+    <div className={cn("flex items-center gap-2", className)}>
+      <svg
+        width="28"
+        height="36"
+        viewBox="0 0 28 36"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-9 w-auto text-primary"
+        aria-hidden="true"
+      >
+        <path
+          d="M4.53516 33.2686L20.0702 9.22754"
+          stroke="currentColor"
+          strokeWidth="2.5"
+        />
+        <circle cx="23.5" cy="5.5" r="3.5" fill="#94a3b8" />
+        <circle cx="4.5" cy="31.5" r="3.5" fill="currentColor" />
+        <circle cx="9.5" cy="24.5" r="3.5" fill="currentColor" />
+        <circle cx="14.5" cy="17.5" r="3.5" fill="currentColor" />
+        <circle cx="19.5" cy="10.5" r="3.5" fill="currentColor" />
+      </svg>
+      
+      <div className="flex flex-col justify-center">
+        <span className="text-3xl font-bold font-headline text-primary leading-none">
+            SAP
+        </span>
+        <svg height="4" width="100%" className="my-0.5 text-primary" aria-hidden="true">
+            <line x1="0" y1="1" x2="100%" y2="1" stroke="currentColor" strokeWidth="2" />
+        </svg>
+        <span className="text-sm font-bold font-headline text-foreground/90 leading-none tracking-wider">
+            TECH HUB
         </span>
         {showTagline && (
-          <p className="text-xs text-muted-foreground mt-1">
-            Excellence in Learning
-          </p>
+            <span className="block text-[0.6rem] text-muted-foreground mt-1 tracking-[0.2em] font-medium">
+            TRAINING INSTITUTE
+            </span>
         )}
       </div>
     </div>

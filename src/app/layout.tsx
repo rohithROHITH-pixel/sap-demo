@@ -6,10 +6,10 @@ import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
   title: {
-    default: "Nexus SAP",
-    template: "%s | Nexus SAP",
+    default: "SAP Tech Hub",
+    template: "%s | SAP Tech Hub",
   },
-  description: 'Connecting You to SAP Excellence',
+  description: 'Excellence in Learning',
 };
 
 export default function RootLayout({

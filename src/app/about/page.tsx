@@ -38,7 +38,7 @@ export default function AboutPage() {
     <>
       <section className="w-full py-16 md:py-24 lg:py-32 bg-secondary">
         <div className="container mx-auto px-4 md:px-6 text-center">
-            <h1 className="text-3xl font-bold font-headline tracking-tight text-primary sm:text-4xl md:text-5xl">About Nexus SAP</h1>
+            <h1 className="text-3xl font-bold font-headline tracking-tight text-primary sm:text-4xl md:text-5xl">About SAP Tech Hub</h1>
             <p className="mt-4 max-w-3xl mx-auto text-muted-foreground md:text-lg">
                 Your partner in professional SAP development and career growth.
             </p>

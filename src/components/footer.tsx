@@ -16,7 +16,7 @@ export default function Footer() {
                 <Logo className='[&_span]:text-primary-foreground [&_svg]:text-primary-foreground' showTagline />
             </Link>
           <p className="text-sm text-primary-foreground/80">
-            &copy; {new Date().getFullYear()} Nexus SAP. All rights reserved.
+            &copy; {new Date().getFullYear()} SAP Tech Hub. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {socialLinks.map((link) => (

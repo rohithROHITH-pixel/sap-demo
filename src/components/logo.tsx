@@ -33,7 +33,7 @@ export function Logo({ className, showTagline = false }: LogoProps) {
         <span className="text-3xl font-bold font-headline text-primary leading-none">
             SAP
         </span>
-        <svg height="4" width="100%" className="my-0.5 text-primary" aria-hidden="true">
+        <svg height="4" width="48px" className="my-0.5 text-primary" aria-hidden="true">
             <line x1="0" y1="1" x2="100%" y2="1" stroke="currentColor" strokeWidth="2" />
         </svg>
         <span className="text-sm font-bold font-headline text-foreground/90 leading-none tracking-wider">
@@ -41,7 +41,7 @@ export function Logo({ className, showTagline = false }: LogoProps) {
         </span>
         {showTagline && (
             <span className="block text-[0.6rem] text-muted-foreground mt-1 tracking-[0.2em] font-medium">
-            TRAINING INSTITUTE
+            SAP Software Training Institute
             </span>
         )}
       </div>

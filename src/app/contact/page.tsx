@@ -45,7 +45,7 @@ export default function ContactPage() {
                       <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold text-lg">Email</h4>
-                        <p className="text-muted-foreground">contact@nexussap.com</p>
+                        <p className="text-muted-foreground">contact@saptechhub.com</p>
                       </div>
                     </div>
                   </div>
@@ -53,7 +53,7 @@ export default function ContactPage() {
               </div>
               <div className="relative rounded-xl overflow-hidden h-[400px] md:h-full shadow-xl">
                  <iframe
-                    title="Google Map of SAP Institute Pro"
+                    title="Google Map of SAP Tech Hub"
                     src="https://maps.google.com/maps?q=890%20Broadway,%20New%20York,%20NY%2010003&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     className="absolute inset-0 w-full h-full border-0"
                     allowFullScreen

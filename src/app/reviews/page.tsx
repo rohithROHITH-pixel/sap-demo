@@ -17,10 +17,8 @@ export default function ReviewsPage() {
             </div>
         </section>
 
-        <section id="contact" className="w-full py-16 md:py-24">
-          <div className="container mx-auto px-4 md:px-6">
-              <Reviews />
-          </div>
+        <section id="reviews" className="w-full py-16 md:py-24">
+          <Reviews />
         </section>
     </>
   );

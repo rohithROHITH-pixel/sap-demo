@@ -2,10 +2,9 @@ import { cn } from "@/lib/utils";
 
 type LogoProps = {
   className?: string;
-  showTagline?: boolean;
 };
 
-export function Logo({ className, showTagline = false }: LogoProps) {
+export function Logo({ className }: LogoProps) {
   return (
     <div className={cn("flex items-center gap-2", className)}>
       <svg
@@ -39,11 +38,9 @@ export function Logo({ className, showTagline = false }: LogoProps) {
         <span className="text-sm font-bold font-headline text-foreground/90 leading-none tracking-wider">
             TECH HUB
         </span>
-        {showTagline && (
-            <span className="block text-[0.6rem] text-muted-foreground mt-1 tracking-[0.2em] font-medium">
-            SAP Software Training Institute
-            </span>
-        )}
+        <span className="block text-[0.6rem] text-muted-foreground mt-1 tracking-[0.2em] font-medium">
+        SAP Software Training Institute
+        </span>
       </div>
     </div>
   );

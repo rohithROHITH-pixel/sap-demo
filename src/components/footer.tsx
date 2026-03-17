@@ -2,10 +2,10 @@ import Link from 'next/link';
 import { Logo } from './logo';
 
 const socialLinks = [
-  { name: 'Instagram', href: 'https://www.instagram.com/saptechhub252026' },
   { name: 'Twitter', href: '#' },
   { name: 'LinkedIn', href: '#' },
   { name: 'Facebook', href: '#' },
+  { name: 'Instagram', href: 'https://www.instagram.com/saptechhub252026' },
 ];
 
 export default function Footer() {

@@ -11,7 +11,7 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { type Metadata } from "next";
 import Link from "next/link";
-import { Logo } from "@/components/logo";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Our Services",
@@ -108,9 +108,22 @@ export default function ServicesPage() {
                     href="https://youtube.com/@saptechhub-q2k" 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="inline-block transition-transform hover:scale-105"
+                    className="inline-flex items-center gap-4 rounded-lg p-2 transition-colors border hover:bg-secondary"
                 >
-                   <Logo />
+                    <div className="w-20 h-20 relative flex-shrink-0">
+                        <Image
+                            src="https://picsum.photos/seed/sap-logo/80/80"
+                            alt="SAP Tech Hub Channel Logo"
+                            width={80}
+                            height={80}
+                            className="rounded-full"
+                            data-ai-hint="company logo"
+                        />
+                    </div>
+                    <div>
+                        <h3 className="text-xl font-bold font-headline text-foreground">SAP TECH HUB</h3>
+                        <p className="text-sm text-muted-foreground">@SAPTECHHUB-q2k</p>
+                    </div>
                 </Link>
             </div>
             <div className="aspect-video overflow-hidden rounded-xl shadow-xl">

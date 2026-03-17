@@ -112,7 +112,7 @@ export default function ServicesPage() {
                 >
                     <div className="w-20 h-20 relative flex-shrink-0">
                         <Image
-                            src="https://picsum.photos/seed/sap-logo/80/80"
+                            src="https://placehold.co/80x80/3A3A3A/FFFFFF?text=Logo"
                             alt="SAP Tech Hub Channel Logo"
                             width={80}
                             height={80}

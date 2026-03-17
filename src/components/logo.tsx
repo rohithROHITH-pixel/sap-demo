@@ -13,7 +13,7 @@ export function Logo({ className }: LogoProps) {
         viewBox="0 0 28 36"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="h-9 w-auto text-primary"
+        className="h-8 w-auto text-primary md:h-9"
         aria-hidden="true"
       >
         <path
@@ -29,17 +29,17 @@ export function Logo({ className }: LogoProps) {
       </svg>
       
       <div className="flex flex-col justify-center">
-        <span className="text-3xl font-bold font-headline text-primary leading-none">
+        <span className="text-2xl font-bold font-headline text-primary leading-none md:text-3xl">
             SAP
         </span>
-        <svg height="4" width="24px" className="my-0.5 text-primary" aria-hidden="true">
+        <svg height="4" className="my-0.5 text-primary w-[20px] md:w-[24px]" aria-hidden="true">
             <line x1="0" y1="1" x2="100%" y2="1" stroke="currentColor" strokeWidth="2" />
         </svg>
         <div className="flex items-baseline gap-x-2">
-            <span className="text-sm font-bold font-headline text-foreground leading-none tracking-wider">
+            <span className="text-xs font-bold font-headline text-foreground leading-none tracking-wider md:text-sm">
                 TECH HUB
             </span>
-            <span className="text-xs text-muted-foreground font-semibold tracking-wide whitespace-nowrap">
+            <span className="text-[10px] font-semibold tracking-wide text-muted-foreground whitespace-nowrap md:text-xs">
                 SAP Software Training Institute
             </span>
         </div>

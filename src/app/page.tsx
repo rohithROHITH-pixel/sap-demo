@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[85vh] flex items-center justify-center text-center text-white overflow-hidden">
+      <section className="relative w-full h-[70vh] md:h-[85vh] flex items-center justify-center text-center text-white overflow-hidden">
         <div className="absolute inset-0">
           {heroImage && (
             <Image

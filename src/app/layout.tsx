@@ -19,8 +19,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-      </head>
       <body className="font-body antialiased flex flex-col min-h-screen bg-background">
         <Header />
         <main className="flex-1">{children}</main>

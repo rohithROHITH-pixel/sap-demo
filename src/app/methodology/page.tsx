@@ -89,6 +89,35 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      <section className="w-full py-16 md:py-24 bg-secondary">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="mx-auto max-w-3xl text-center space-y-4">
+            <h2 className="text-3xl font-bold font-headline tracking-tight text-primary sm:text-4xl">See Our Classes in Action</h2>
+            <p className="text-muted-foreground md:text-lg">
+              Watch a sample from our YouTube channel to get a feel for our hands-on teaching style.
+            </p>
+          </div>
+          <div className="mt-12 mx-auto max-w-4xl">
+            <div className="relative overflow-hidden rounded-xl shadow-xl" style={{ paddingTop: '56.25%' }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+             <p className="text-center text-sm text-muted-foreground mt-4">
+              <strong>Note:</strong> To display your video, please replace{" "}
+              <strong>`YOUR_VIDEO_ID_HERE`</strong> in the code with the ID from your YouTube video&apos;s URL.
+              <br />
+              For example, in a URL like `https://www.youtube.com/watch?v=dQw4w9WgXcQ`, the ID is `dQw4w9WgXcQ`.
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

@@ -8,9 +8,9 @@
     },
     {
       "id": "about",
-      "description": "A professional mentor guiding a student on a computer with SAP software.",
-      "imageUrl": "https://images.unsplash.com/photo-1758524944402-1903b38f848f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWVudG9yJTIwdGVhY2hpbmd8ZW58MHx8fHwxNzcxOTM5NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mentor teaching"
+      "description": "A modern dashboard displaying complex business analytics, representing SAP's data processing capabilities.",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXNoYm9hcmR8ZW58MHx8fHwxNzIyMjc4MjI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data dashboard"
     },
     {
       "id": "methodology",

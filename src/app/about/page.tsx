@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Gem, Heart, Lightbulb, Users } from "lucide-react";
+import { Briefcase, GraduationCap, Users } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { type Metadata } from "next";
@@ -11,26 +11,21 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   const aboutImage = PlaceHolderImages.find((img) => img.id === "about");
 
-  const coreValues = [
+  const whoCanJoin = [
     {
-      icon: <Gem className="h-10 w-10 text-primary" />,
-      title: "Excellence",
-      description: "We are committed to the highest standards of teaching and curriculum design.",
+      icon: <GraduationCap className="h-10 w-10 text-primary" />,
+      title: "Freshers",
+      description: "Start your career with a strong foundation in SAP.",
     },
     {
-      icon: <Heart className="h-10 w-10 text-primary" />,
-      title: "Integrity",
-      description: "We operate with transparency, honesty, and a focus on student success.",
-    },
-    {
-      icon: <Lightbulb className="h-10 w-10 text-primary" />,
-      title: "Innovation",
-      description: "We continuously adapt our courses to reflect the latest industry trends.",
+      icon: <Briefcase className="h-10 w-10 text-primary" />,
+      title: "Working Professionals",
+      description: "Upskill and advance your career with specialized SAP knowledge.",
     },
     {
       icon: <Users className="h-10 w-10 text-primary" />,
-      title: "Community",
-      description: "We foster a supportive and collaborative learning environment for all students.",
+      title: "IT and Non-IT Graduates",
+      description: "Transition into a high-demand tech career, regardless of your background.",
     },
   ];
 
@@ -76,17 +71,17 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Core Values Section */}
+      {/* Who Can Join Us Section */}
       <section className="w-full py-16 md:py-24 bg-secondary">
         <div className="container mx-auto px-4 md:px-6">
           <div className="mx-auto max-w-3xl text-center space-y-4">
-            <h2 className="text-3xl font-bold font-headline tracking-tight text-primary sm:text-4xl">Our Core Values</h2>
+            <h2 className="text-3xl font-bold font-headline tracking-tight text-primary sm:text-4xl">Who Can Join Us</h2>
             <p className="text-muted-foreground md:text-lg">
-              The principles that guide our work and define our culture.
+              Our courses are designed for a diverse range of learners.
             </p>
           </div>
-          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {coreValues.map((value) => (
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {whoCanJoin.map((value) => (
               <Card key={value.title} className="text-center transition-transform hover:scale-105 hover:shadow-lg">
                 <CardHeader className="items-center">
                   {value.icon}

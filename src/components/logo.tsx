@@ -39,7 +39,7 @@ export function Logo({ className }: LogoProps) {
             <span className="text-xs font-bold font-headline text-foreground leading-none tracking-wider md:text-sm">
                 TECH HUB
             </span>
-            <span className="text-[10px] font-semibold tracking-wide text-muted-foreground md:text-xs">
+            <span className="hidden font-semibold tracking-wide text-muted-foreground md:inline-block md:text-xs">
                 SAP Software Training Institute
             </span>
         </div>

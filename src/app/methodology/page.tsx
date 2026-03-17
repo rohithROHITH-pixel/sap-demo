@@ -7,6 +7,7 @@ import {
   Server,
   Users,
   ClipboardCheck,
+  TrendingUp,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { type Metadata } from "next";
@@ -110,15 +111,8 @@ export default function ServicesPage() {
                     rel="noopener noreferrer" 
                     className="inline-flex items-center gap-4 rounded-lg p-2 transition-colors border hover:bg-secondary"
                 >
-                    <div className="w-20 h-20 relative flex-shrink-0">
-                        <Image
-                            src="https://placehold.co/80x80/3A3A3A/FFFFFF?text=Logo"
-                            alt="SAP Tech Hub Channel Logo"
-                            width={80}
-                            height={80}
-                            className="rounded-full"
-                            data-ai-hint="company logo"
-                        />
+                    <div className="w-20 h-20 relative flex-shrink-0 flex items-center justify-center bg-muted rounded-full">
+                        <TrendingUp className="h-10 w-10 text-primary" />
                     </div>
                     <div>
                         <h3 className="text-xl font-bold font-headline text-foreground">SAP TECH HUB</h3>

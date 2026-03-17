@@ -7,12 +7,9 @@ import {
   Server,
   Users,
   ClipboardCheck,
-  TrendingUp,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { type Metadata } from "next";
-import Link from "next/link";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Our Services",
@@ -100,26 +97,10 @@ export default function ServicesPage() {
               See Our Classes in Action
             </h2>
             <p className="text-muted-foreground md:text-lg">
-              Get a glimpse of our teaching style and the quality of our training by visiting our YouTube channel.
+              Get a glimpse of our teaching style and the quality of our training.
             </p>
           </div>
           <div className="mt-12 max-w-4xl mx-auto">
-            <div className="mb-8 flex justify-center">
-                <Link 
-                    href="https://youtube.com/@saptechhub-q2k" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="inline-flex items-center gap-4 rounded-lg p-2 transition-colors border hover:bg-secondary"
-                >
-                    <div className="w-20 h-20 relative flex-shrink-0 flex items-center justify-center bg-muted rounded-full">
-                        <TrendingUp className="h-10 w-10 text-primary" />
-                    </div>
-                    <div>
-                        <h3 className="text-xl font-bold font-headline text-foreground">SAP TECH HUB</h3>
-                        <p className="text-sm text-muted-foreground">@SAPTECHHUB-q2k</p>
-                    </div>
-                </Link>
-            </div>
             <div className="aspect-video overflow-hidden rounded-xl shadow-xl">
               <iframe
                 className="w-full h-full"

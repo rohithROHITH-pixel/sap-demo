@@ -45,7 +45,7 @@ export default function ContactPage() {
                       <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                       <div>
                         <h4 className="font-semibold text-lg">Email</h4>
-                        <p className="text-muted-foreground">contact@saptechhub.com</p>
+                        <p className="text-muted-foreground">saptechhub25@gmail.com</p>
                       </div>
                     </div>
                   </div>

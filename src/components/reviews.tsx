@@ -9,7 +9,7 @@ import {
 
 const reviews = [
   {
-    name: "Alex Johnson",
+    name: "Arun Kumar",
     rating: 5,
     feedback: "The hands-on labs were incredibly insightful. I feel much more confident in my SAP abilities now. Highly recommend!",
   },
@@ -19,17 +19,17 @@ const reviews = [
     feedback: "A fantastic learning experience! The instructors are true experts and provide excellent mentorship. The course content is up-to-date and very relevant.",
   },
   {
-    name: "David Chen",
+    name: "Sanjay Gupta",
     rating: 4,
     feedback: "Great structure and pace. The collaborative projects helped me understand how to work in a team on complex SAP tasks.",
   },
   {
-    name: "Emily Rodriguez",
+    name: "Anjali Singh",
     rating: 5,
     feedback: "SAP Tech Hub helped me transition my career. The skills I learned were directly applicable to my new job. Thank you!",
   },
   {
-    name: "Michael Brown",
+    name: "Rajesh Patel",
     rating: 4,
     feedback: "Solid curriculum and knowledgeable instructors. I wish there were more advanced topics, but it's a great starting point for anyone new to SAP.",
   },

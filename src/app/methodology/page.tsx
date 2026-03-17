@@ -10,6 +10,8 @@ import {
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { type Metadata } from "next";
+import Link from "next/link";
+import { Logo } from "@/components/logo";
 
 export const metadata: Metadata = {
   title: "Our Services",
@@ -97,10 +99,20 @@ export default function ServicesPage() {
               See Our Classes in Action
             </h2>
             <p className="text-muted-foreground md:text-lg">
-              Get a glimpse of our teaching style and the quality of our training.
+              Get a glimpse of our teaching style and the quality of our training by visiting our YouTube channel.
             </p>
           </div>
           <div className="mt-12 max-w-4xl mx-auto">
+            <div className="mb-8 flex justify-center">
+                <Link 
+                    href="https://youtube.com/@saptechhub-q2k" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-block transition-transform hover:scale-105"
+                >
+                   <Logo />
+                </Link>
+            </div>
             <div className="aspect-video overflow-hidden rounded-xl shadow-xl">
               <iframe
                 className="w-full h-full"

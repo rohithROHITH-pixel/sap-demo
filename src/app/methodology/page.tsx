@@ -89,6 +89,31 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      <section className="w-full py-16 md:py-24 bg-secondary">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="mx-auto max-w-3xl text-center space-y-4">
+            <h2 className="text-3xl font-bold font-headline tracking-tight text-primary sm:text-4xl">
+              See Our Classes in Action
+            </h2>
+            <p className="text-muted-foreground md:text-lg">
+              Get a glimpse of our teaching style and the quality of our training.
+            </p>
+          </div>
+          <div className="mt-12 max-w-4xl mx-auto">
+            <div className="aspect-video overflow-hidden rounded-xl shadow-xl">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/J_LGll7KQNk"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

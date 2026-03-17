@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, Instagram } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { type Metadata } from "next";
 
@@ -49,6 +49,21 @@ export default function ContactPage() {
                         <h4 className="font-semibold text-lg">Email</h4>
                         <a href="mailto:saptechhub25@gmail.com" className="text-muted-foreground hover:underline">
                             saptechhub25@gmail.com
+                        </a>
+                      </div>
+                    </div>
+                    <Separator />
+                    <div className="flex items-start gap-4">
+                      <Instagram className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <h4 className="font-semibold text-lg">Instagram</h4>
+                        <a
+                          href="https://www.instagram.com/saptechhub252026"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-muted-foreground hover:underline"
+                        >
+                          @saptechhub252026
                         </a>
                       </div>
                     </div>

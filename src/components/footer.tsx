@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Logo } from './logo';
 
 const socialLinks = [
+  { name: 'Instagram', href: 'https://www.instagram.com/saptechhub252026' },
   { name: 'Twitter', href: '#' },
   { name: 'LinkedIn', href: '#' },
   { name: 'Facebook', href: '#' },
@@ -24,6 +25,8 @@ export default function Footer() {
                 key={link.name}
                 href={link.href}
                 className="text-sm font-medium text-primary-foreground/80 transition-colors hover:text-primary-foreground"
+                target={link.href.startsWith('http') ? '_blank' : undefined}
+                rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
               >
                 {link.name}
               </Link>

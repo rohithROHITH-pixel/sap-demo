@@ -8,26 +8,26 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import ReviewCard from "@/components/review-card";
 import Reviews from "@/components/reviews";
 
+const aims = [
+  {
+    icon: <Target className="h-10 w-10 text-primary" />,
+    title: "Practical Skills",
+    description: "Focus on hands-on, real-world SAP scenarios to build job-ready competence.",
+  },
+  {
+    icon: <Users className="h-10 w-10 text-primary" />,
+    title: "Expert Mentorship",
+    description: "Learn from industry veterans with years of experience in the SAP ecosystem.",
+  },
+  {
+    icon: <Briefcase className="h-10 w-10 text-primary" />,
+    title: "Career Advancement",
+    description: "Equip yourself with in-demand skills to unlock new career opportunities.",
+  },
+];
+
 export default function Home() {
   const heroImage = PlaceHolderImages.find((img) => img.id === "hero");
-
-  const aims = [
-    {
-      icon: <Target className="h-10 w-10 text-primary" />,
-      title: "Practical Skills",
-      description: "Focus on hands-on, real-world SAP scenarios to build job-ready competence.",
-    },
-    {
-      icon: <Users className="h-10 w-10 text-primary" />,
-      title: "Expert Mentorship",
-      description: "Learn from industry veterans with years of experience in the SAP ecosystem.",
-    },
-    {
-      icon: <Briefcase className="h-10 w-10 text-primary" />,
-      title: "Career Advancement",
-      description: "Equip yourself with in-demand skills to unlock new career opportunities.",
-    },
-  ];
 
   return (
     <>

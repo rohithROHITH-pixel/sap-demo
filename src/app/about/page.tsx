@@ -8,26 +8,26 @@ export const metadata: Metadata = {
   title: 'About Us',
 };
 
+const whoCanJoin = [
+  {
+    icon: <GraduationCap className="h-10 w-10 text-primary" />,
+    title: "Freshers",
+    description: "Start your career with a strong foundation in SAP.",
+  },
+  {
+    icon: <Briefcase className="h-10 w-10 text-primary" />,
+    title: "Working Professionals",
+    description: "Upskill and advance your career with specialized SAP knowledge.",
+  },
+  {
+    icon: <Users className="h-10 w-10 text-primary" />,
+    title: "IT and Non-IT Graduates",
+    description: "Transition into a high-demand tech career, regardless of your background.",
+  },
+];
+
 export default function AboutPage() {
   const aboutImage = PlaceHolderImages.find((img) => img.id === "about");
-
-  const whoCanJoin = [
-    {
-      icon: <GraduationCap className="h-10 w-10 text-primary" />,
-      title: "Freshers",
-      description: "Start your career with a strong foundation in SAP.",
-    },
-    {
-      icon: <Briefcase className="h-10 w-10 text-primary" />,
-      title: "Working Professionals",
-      description: "Upskill and advance your career with specialized SAP knowledge.",
-    },
-    {
-      icon: <Users className="h-10 w-10 text-primary" />,
-      title: "IT and Non-IT Graduates",
-      description: "Transition into a high-demand tech career, regardless of your background.",
-    },
-  ];
 
   return (
     <>

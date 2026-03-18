@@ -15,50 +15,50 @@ export const metadata: Metadata = {
   title: "Our Services",
 };
 
-export default function ServicesPage() {
-  const services = [
-    {
-      icon: <ShoppingCart className="h-10 w-10 text-primary" />,
-      title: "SAP S/4HANA Sales (SD)",
-      description: "Master the complete sales and distribution cycle, from order to cash.",
-    },
-    {
-      icon: <Landmark className="h-10 w-10 text-primary" />,
-      title: "SAP S/4HANA Finance (FICO)",
-      description: "Gain expertise in financial accounting and management reporting.",
-    },
-    {
-      icon: <Boxes className="h-10 w-10 text-primary" />,
-      title: "SAP Materials Management (MM)",
-      description: "Learn the core processes of procurement and inventory management.",
-    },
-    {
-      icon: <Factory className="h-10 w-10 text-primary" />,
-      title: "SAP Production Planning (PP)",
-      description: "Understand the planning and execution of manufacturing processes.",
-    },
-    {
-      icon: <Code className="h-10 w-10 text-primary" />,
-      title: "SAP ABAP Development",
-      description: "Become a proficient SAP developer on both ECC and S/4HANA.",
-    },
-    {
-      icon: <Server className="h-10 w-10 text-primary" />,
-      title: "SAP Basis Administration",
-      description: "Manage, maintain, and secure complex SAP system landscapes.",
-    },
-    {
-      icon: <Users className="h-10 w-10 text-primary" />,
-      title: "SAP SuccessFactors (HCM)",
-      description: "Specialize in cloud-based human experience management and payroll.",
-    },
-    {
-      icon: <ClipboardCheck className="h-10 w-10 text-primary" />,
-      title: "SAP Testing",
-      description: "Ensure the quality and reliability of SAP applications and processes.",
-    },
-  ];
+const services = [
+  {
+    icon: <ShoppingCart className="h-10 w-10 text-primary" />,
+    title: "SAP S/4HANA Sales (SD)",
+    description: "Master the complete sales and distribution cycle, from order to cash.",
+  },
+  {
+    icon: <Landmark className="h-10 w-10 text-primary" />,
+    title: "SAP S/4HANA Finance (FICO)",
+    description: "Gain expertise in financial accounting and management reporting.",
+  },
+  {
+    icon: <Boxes className="h-10 w-10 text-primary" />,
+    title: "SAP Materials Management (MM)",
+    description: "Learn the core processes of procurement and inventory management.",
+  },
+  {
+    icon: <Factory className="h-10 w-10 text-primary" />,
+    title: "SAP Production Planning (PP)",
+    description: "Understand the planning and execution of manufacturing processes.",
+  },
+  {
+    icon: <Code className="h-10 w-10 text-primary" />,
+    title: "SAP ABAP Development",
+    description: "Become a proficient SAP developer on both ECC and S/4HANA.",
+  },
+  {
+    icon: <Server className="h-10 w-10 text-primary" />,
+    title: "SAP Basis Administration",
+    description: "Manage, maintain, and secure complex SAP system landscapes.",
+  },
+  {
+    icon: <Users className="h-10 w-10 text-primary" />,
+    title: "SAP SuccessFactors (HCM)",
+    description: "Specialize in cloud-based human experience management and payroll.",
+  },
+  {
+    icon: <ClipboardCheck className="h-10 w-10 text-primary" />,
+    title: "SAP Testing",
+    description: "Ensure the quality and reliability of SAP applications and processes.",
+  },
+];
 
+export default function ServicesPage() {
   return (
     <>
       <section className="w-full py-16 md:py-24 lg:py-32 bg-secondary">
